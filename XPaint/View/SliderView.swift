@@ -76,20 +76,12 @@ struct SliderView: View {
                         }
                     }
                 )
-
         }
         .frame(maxWidth: 300, maxHeight: 50)
         .onAppear {
             getRealValue()
         }
-        
-        // .scaleEffect(CGSize(width: 0.5, height: 1.0))
-        
-        //  Text("current - \(value)")
-        //  Text("current - \(value.transformValueByRange(from: 0...300, to: 2...20))")
-        
     }
-    
 }
 
 

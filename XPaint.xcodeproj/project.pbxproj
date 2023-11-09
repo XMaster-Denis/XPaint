@@ -9,10 +9,9 @@
 /* Begin PBXBuildFile section */
 		E285DFDB2AEA140100AD6B33 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285DFDA2AEA140100AD6B33 /* Graphics.swift */; };
 		E285DFDE2AEA14A000AD6B33 /* PaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285DFDD2AEA14A000AD6B33 /* PaletteView.swift */; };
-		E285DFE12AEA171F00AD6B33 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285DFE02AEA171F00AD6B33 /* CGPoint+Extensions.swift */; };
 		E285DFE32AEA190100AD6B33 /* UndoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285DFE22AEA190100AD6B33 /* UndoView.swift */; };
 		E285DFE52AEA2DD400AD6B33 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285DFE42AEA2DD400AD6B33 /* SliderView.swift */; };
-		E285DFE72AEA59D200AD6B33 /* FloatingPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285DFE62AEA59D200AD6B33 /* FloatingPoint+Extensions.swift */; };
+		E2BF97632AFCF18E00FC822F /* FloatingPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BF97622AFCF18E00FC822F /* FloatingPoint+Extensions.swift */; };
 		E2F56D0C2AE8112600B48C3B /* XPaintApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F56D0B2AE8112600B48C3B /* XPaintApp.swift */; };
 		E2F56D0E2AE8112600B48C3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F56D0D2AE8112600B48C3B /* ContentView.swift */; };
 		E2F56D102AE8112700B48C3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F56D0F2AE8112700B48C3B /* Assets.xcassets */; };
@@ -22,10 +21,9 @@
 /* Begin PBXFileReference section */
 		E285DFDA2AEA140100AD6B33 /* Graphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
 		E285DFDD2AEA14A000AD6B33 /* PaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteView.swift; sourceTree = "<group>"; };
-		E285DFE02AEA171F00AD6B33 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
 		E285DFE22AEA190100AD6B33 /* UndoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoView.swift; sourceTree = "<group>"; };
 		E285DFE42AEA2DD400AD6B33 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
-		E285DFE62AEA59D200AD6B33 /* FloatingPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Extensions.swift"; sourceTree = "<group>"; };
+		E2BF97622AFCF18E00FC822F /* FloatingPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FloatingPoint+Extensions.swift"; sourceTree = "<group>"; };
 		E2F56D082AE8112600B48C3B /* XPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPaint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F56D0B2AE8112600B48C3B /* XPaintApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPaintApp.swift; sourceTree = "<group>"; };
 		E2F56D0D2AE8112600B48C3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,8 +63,7 @@
 		E285DFDF2AEA169200AD6B33 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				E285DFE02AEA171F00AD6B33 /* CGPoint+Extensions.swift */,
-				E285DFE62AEA59D200AD6B33 /* FloatingPoint+Extensions.swift */,
+				E2BF97622AFCF18E00FC822F /* FloatingPoint+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -180,10 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E285DFDB2AEA140100AD6B33 /* Graphics.swift in Sources */,
-				E285DFE12AEA171F00AD6B33 /* CGPoint+Extensions.swift in Sources */,
-				E285DFE72AEA59D200AD6B33 /* FloatingPoint+Extensions.swift in Sources */,
 				E285DFE32AEA190100AD6B33 /* UndoView.swift in Sources */,
 				E2F56D0E2AE8112600B48C3B /* ContentView.swift in Sources */,
+				E2BF97632AFCF18E00FC822F /* FloatingPoint+Extensions.swift in Sources */,
 				E2F56D0C2AE8112600B48C3B /* XPaintApp.swift in Sources */,
 				E285DFDE2AEA14A000AD6B33 /* PaletteView.swift in Sources */,
 				E285DFE52AEA2DD400AD6B33 /* SliderView.swift in Sources */,

@@ -2,7 +2,7 @@
 //  UndoView.swift
 //  XPaint
 //
-//  Created by XMaster on 26.10.2023.
+//  Created by XMaster  on 26.10.2023.
 //
 
 import SwiftUI

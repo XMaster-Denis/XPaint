@@ -2,7 +2,7 @@
 //  XPaintApp.swift
 //  XPaint
 //
-//  Created by Denis Lyamtsev on 24.10.2023.
+//  Created by Denis Lyamtsev on  24.10.2023.
 //
 
 import SwiftUI

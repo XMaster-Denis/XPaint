@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E258E75A2EDAE51E008D681F /* GrafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258E7592EDAE51E008D681F /* GrafView.swift */; };
 		E285DFDB2AEA140100AD6B33 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285DFDA2AEA140100AD6B33 /* Graphics.swift */; };
 		E285DFDE2AEA14A000AD6B33 /* PaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285DFDD2AEA14A000AD6B33 /* PaletteView.swift */; };
 		E285DFE32AEA190100AD6B33 /* UndoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285DFE22AEA190100AD6B33 /* UndoView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E258E7592EDAE51E008D681F /* GrafView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrafView.swift; sourceTree = "<group>"; };
 		E285DFDA2AEA140100AD6B33 /* Graphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
 		E285DFDD2AEA14A000AD6B33 /* PaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteView.swift; sourceTree = "<group>"; };
 		E285DFE22AEA190100AD6B33 /* UndoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UndoView.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				E285DFDD2AEA14A000AD6B33 /* PaletteView.swift */,
 				E285DFE22AEA190100AD6B33 /* UndoView.swift */,
 				E285DFE42AEA2DD400AD6B33 /* SliderView.swift */,
+				E258E7592EDAE51E008D681F /* GrafView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -134,7 +137,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 2610;
 				TargetAttributes = {
 					E2F56D072AE8112600B48C3B = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -180,6 +183,7 @@
 				E285DFE32AEA190100AD6B33 /* UndoView.swift in Sources */,
 				E2F56D0E2AE8112600B48C3B /* ContentView.swift in Sources */,
 				E2BF97632AFCF18E00FC822F /* FloatingPoint+Extensions.swift in Sources */,
+				E258E75A2EDAE51E008D681F /* GrafView.swift in Sources */,
 				E2F56D0C2AE8112600B48C3B /* XPaintApp.swift in Sources */,
 				E285DFDE2AEA14A000AD6B33 /* PaletteView.swift in Sources */,
 				E285DFE52AEA2DD400AD6B33 /* SliderView.swift in Sources */,
@@ -224,6 +228,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 38Y6LA5LS9;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -247,6 +252,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -287,6 +293,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 38Y6LA5LS9;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -303,6 +310,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -319,6 +327,7 @@
 				DEVELOPMENT_TEAM = 38Y6LA5LS9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -349,6 +358,7 @@
 				DEVELOPMENT_TEAM = 38Y6LA5LS9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

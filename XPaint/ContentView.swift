@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  XPaint
 //
-//  Created by Denis Lyamtsev on 24.10.2023.
+//  Created by Denis Lyamtsev  on 24.10.2023.
 //
 
 import SwiftUI
@@ -29,7 +29,6 @@ struct ContentView: View {
                     
                     mainGrap.graphics.last?.lines.append(.init(startPoint: oldPosition,
                                                                endPoint: value.location))
-                    mainGrap.objectWillChange.send()
                     oldPosition = value.location
                 }
             }
@@ -38,7 +37,7 @@ struct ContentView: View {
                 isPainting = false
             }
     }
-    
+     
     var body: some View {
         ZStack{
             Rectangle()
@@ -46,13 +45,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
                 .overlay {
                     ForEach(mainGrap.graphics) { graf in
-                        ForEach(graf.lines) { line in
-                            Path {p in
-                                p.addLines(line.linePathWithStartEnd)
-                            }
-                            .strokedPath(StrokeStyle(lineWidth: graf.width, lineCap: .round))
-                            .foregroundStyle(graf.color)
-                        }
+                        GrafView(graf: graf)
                     }
                 }
             VStack {

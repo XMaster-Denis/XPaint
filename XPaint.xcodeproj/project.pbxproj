@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E21456C82EE1C8BC00931E78 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21456C72EE1C8BC00931E78 /* DrawingCanvasView.swift */; };
+		E21456CC2EE1E55400931E78 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E21456CA2EE1E55400931E78 /* InfoPlist.strings */; };
 		E258E75A2EDAE51E008D681F /* GrafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E258E7592EDAE51E008D681F /* GrafView.swift */; };
 		E285DFDB2AEA140100AD6B33 /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285DFDA2AEA140100AD6B33 /* Graphics.swift */; };
 		E285DFDE2AEA14A000AD6B33 /* PaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E285DFDD2AEA14A000AD6B33 /* PaletteView.swift */; };
@@ -20,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E21456C72EE1C8BC00931E78 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		E21456CB2EE1E55400931E78 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E21456CD2EE1E55C00931E78 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E21456CE2EE1E56400931E78 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E258E7592EDAE51E008D681F /* GrafView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrafView.swift; sourceTree = "<group>"; };
 		E285DFDA2AEA140100AD6B33 /* Graphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
 		E285DFDD2AEA14A000AD6B33 /* PaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteView.swift; sourceTree = "<group>"; };
@@ -36,10 +42,8 @@
 /* Begin PBXFrameworksBuildPhase section */
 		E2F56D052AE8112600B48C3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -59,6 +63,7 @@
 				E285DFE22AEA190100AD6B33 /* UndoView.swift */,
 				E285DFE42AEA2DD400AD6B33 /* SliderView.swift */,
 				E258E7592EDAE51E008D681F /* GrafView.swift */,
+				E21456C72EE1C8BC00931E78 /* DrawingCanvasView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -78,6 +83,7 @@
 				E2F56D092AE8112600B48C3B /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		E2F56D092AE8112600B48C3B /* Products */ = {
 			isa = PBXGroup;
@@ -97,6 +103,7 @@
 				E285DFDF2AEA169200AD6B33 /* Extension */,
 				E2F56D0F2AE8112700B48C3B /* Assets.xcassets */,
 				E2F56D112AE8112700B48C3B /* Preview Content */,
+				E21456CA2EE1E55400931E78 /* InfoPlist.strings */,
 			);
 			path = XPaint;
 			sourceTree = "<group>";
@@ -122,8 +129,6 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = XPaint;
 			productName = XPaint;
 			productReference = E2F56D082AE8112600B48C3B /* XPaint.app */;
@@ -145,14 +150,15 @@
 				};
 			};
 			buildConfigurationList = E2F56D032AE8112600B48C3B /* Build configuration list for PBXProject "XPaint" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				de,
+				ru,
 			);
 			mainGroup = E2F56CFF2AE8112600B48C3B;
+			preferredProjectObjectVersion = 90;
 			productRefGroup = E2F56D092AE8112600B48C3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -165,19 +171,17 @@
 /* Begin PBXResourcesBuildPhase section */
 		E2F56D062AE8112600B48C3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				E2F56D132AE8112700B48C3B /* Preview Assets.xcassets in Resources */,
+				E21456CC2EE1E55400931E78 /* InfoPlist.strings in Resources */,
 				E2F56D102AE8112700B48C3B /* Assets.xcassets in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2F56D042AE8112600B48C3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				E285DFDB2AEA140100AD6B33 /* Graphics.swift in Sources */,
 				E285DFE32AEA190100AD6B33 /* UndoView.swift in Sources */,
@@ -186,14 +190,27 @@
 				E258E75A2EDAE51E008D681F /* GrafView.swift in Sources */,
 				E2F56D0C2AE8112600B48C3B /* XPaintApp.swift in Sources */,
 				E285DFDE2AEA14A000AD6B33 /* PaletteView.swift in Sources */,
+				E21456C82EE1C8BC00931E78 /* DrawingCanvasView.swift in Sources */,
 				E285DFE52AEA2DD400AD6B33 /* SliderView.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		E21456CA2EE1E55400931E78 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E21456CB2EE1E55400931E78 /* en */,
+				E21456CD2EE1E55C00931E78 /* de */,
+				E21456CE2EE1E56400931E78 /* ru */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		E2F56D142AE8112700B48C3B /* Debug */ = {
+		E2F56D142AE8112700B48C3B /* Debug configuration for PBXProject "XPaint" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -258,7 +275,7 @@
 			};
 			name = Debug;
 		};
-		E2F56D152AE8112700B48C3B /* Release */ = {
+		E2F56D152AE8112700B48C3B /* Release configuration for PBXProject "XPaint" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,18 +333,23 @@
 			};
 			name = Release;
 		};
-		E2F56D172AE8112700B48C3B /* Debug */ = {
+		E2F56D172AE8112700B48C3B /* Debug configuration for PBXNativeTarget "XPaint" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"XPaint/Preview Content\"";
 				DEVELOPMENT_TEAM = 38Y6LA5LS9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XPaint/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "XPaint Simple";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need access to save images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -338,27 +360,37 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmaster.XPaint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E2F56D182AE8112700B48C3B /* Release */ = {
+		E2F56D182AE8112700B48C3B /* Release configuration for PBXNativeTarget "XPaint" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"XPaint/Preview Content\"";
 				DEVELOPMENT_TEAM = 38Y6LA5LS9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XPaint/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "XPaint Simple";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need access to save images";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -369,9 +401,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.xmaster.XPaint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -384,19 +421,17 @@
 		E2F56D032AE8112600B48C3B /* Build configuration list for PBXProject "XPaint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2F56D142AE8112700B48C3B /* Debug */,
-				E2F56D152AE8112700B48C3B /* Release */,
+				E2F56D142AE8112700B48C3B /* Debug configuration for PBXProject "XPaint" */,
+				E2F56D152AE8112700B48C3B /* Release configuration for PBXProject "XPaint" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		E2F56D162AE8112700B48C3B /* Build configuration list for PBXNativeTarget "XPaint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2F56D172AE8112700B48C3B /* Debug */,
-				E2F56D182AE8112700B48C3B /* Release */,
+				E2F56D172AE8112700B48C3B /* Debug configuration for PBXNativeTarget "XPaint" */,
+				E2F56D182AE8112700B48C3B /* Release configuration for PBXNativeTarget "XPaint" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */

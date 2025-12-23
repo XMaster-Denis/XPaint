@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  XPaint
+
+  Created by XMaster on 04.12.25.
+  
+*/
+NSPhotoLibraryAddUsageDescription = "Bitte erlauben Sie der App, Ihre Zeichnungen in Fotos zu speichern.";
